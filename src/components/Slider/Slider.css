@@ -1,0 +1,92 @@
+.Container{
+
+height: 100vh;
+width: 100%;
+display: flex;
+position: relative;
+overflow: hidden;
+}
+@media only screen and (max-width: 450px) {
+    .Container {
+        display: none;}
+    }
+.Arrow1{
+    width: 50px;
+    height: 50px;
+    background-color: #fff7f7;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    left: 10px;
+    cursor: pointer;
+    opacity: 0.5;
+    z-index: 2;
+
+}
+.Arrow2{
+    width: 50px;
+    height: 50px;
+    background-color: #fff7f7;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+right: 10px;
+cursor: pointer;
+opacity: 0.5;
+z-index: 2;
+}
+.wraper{
+    background-color: #fff;
+    height: 100%;
+    display: flex;
+    transform: translateX(0vw);
+    transition: all 1.5s ease;
+}
+.slide{
+    display: flex;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+
+
+.imgContainer{
+flex: 1;
+width: 50%;
+height: 100%;
+
+}
+.infoContainer{
+    flex: 1;
+    padding: 50px;
+}
+.img1{
+    height:80%;
+    
+}
+.desc{
+    margin: 50px;
+    font-style: 20px;
+    font-weight: 500;
+    letter-spacing: 3px;
+}
+.title{
+    font-size: 35px;
+}
+.btn1{
+    padding: 10px;
+    font-size: 20px;
+    background-color: transparent;
+    cursor: pointer;
+}
